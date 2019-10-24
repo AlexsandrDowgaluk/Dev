@@ -14,6 +14,7 @@ namespace Dev
     public class ConnectFirefox
     {
         public IWebDriver driver;
+       
 
         public ConnectFirefox()
 
@@ -21,11 +22,11 @@ namespace Dev
         {
             Initialize();
 
-            driver.Navigate().GoToUrl("https://deveducation.com/");
+           // driver.Navigate().GoToUrl("https://deveducation.com");
         }
         public void Initialize()
         {
-
+            
             FirefoxDriverService service = FirefoxDriverService.CreateDefaultService();
             service.FirefoxBinaryPath = @"C:\Program Files\Mozilla Firefox\firefox.exe";
             driver = new FirefoxDriver(service);
