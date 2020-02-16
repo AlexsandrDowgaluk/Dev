@@ -13,46 +13,7 @@ namespace DevEducationTests
     public class CytiTests
     {
         ConnectFirefox con = new ConnectFirefox();
-        //[Fact]
-        //public void Test1()
-        //{
-
-
-        //    con.driver.Navigate().GoToUrl("https://deveducation.com");
-
-        //    Thread.Sleep(10000);
-        //    con.driver.FindElement(By.CssSelector(".popup-subscribe .popup__close-icon")).Click();
-
-
-        //    //con.driver.FindElement(By.CssSelector(".popup-subscribe .popup__close-icon")).Click();
-        //    //con.driver.FindElement(By.XPath("//a[contains(text(),'Выпускники')]")).Click();
-        //    //con.driver.FindElement(By.CssSelector(".graduates__item:nth-child(1) .play__img")).Click();
-
-
-
-
-        //    //con.driver.FindElement(By.XPath("xpath=//div[7]/button")).Click();
-        //    //Thread.Sleep(10000);
-        //    //string actual = con.driver.FindElement(By.CssSelector(".ytp-title")).Text;
-        //    //string actual = con.driver.FindElement(By.XPath("//div[contains(@class, 'ytp-title-text') and text()='Model saved']")).Text;
-        //    //Thread.Sleep(10000);
-        //    //Assert.Equal("Я работаю по специальности QA Engineer", actual);
-
-
-
-        //   // con.driver.FindElement(By.XPath("xpath=//img[@alt='close img']")).Click();
-        //    con.driver.FindElement(By.CssSelector(".az-point")).Click();
-        //    string actual = con.driver.FindElement(By.XPath("//button[contains(.,'Баку')]")).Text;
-        //    //con.driver.SwitchTo().DefaultContent();
-        //    //con.driver.Url = "https://deveducation.com/";
-        //    //con.driver.Navigate().Back();
-        //    //con.driver.Quit();
-        //    Assert.Equal("Баку", actual);
-        //    //string actual = con.driver.FindElement(By.XPath("//a[contains(.,'Что такое Scrum: главные термины и их реализация в работе компании')]")).Text;
-        //    con.driver.Quit();
-        //    //Assert.Equal("Что такое Scrum: главные термины и их реализация в работе компании", actual);
-
-        //}
+    
         [Fact]
         public void OpenAllCurses()
         {
